@@ -1,0 +1,46 @@
+body {
+    background-color: #38220f;
+}
+
+.pageHeader {
+    text-align: center;
+    margin: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 68px;
+    color: whitesmoke;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+}
+.shop {
+    width: 30%;
+    border: black dotted 1px;
+    margin: 5px 10px;
+    padding: 3px;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.name .address .phone-number .website {
+    float: right;
+    color: #38220f;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-right: 10px
+
+}
