@@ -1,14 +1,29 @@
 body {
-    background-color: #38220f;
+    background-color: white;
 }
 
 .pageHeader {
     text-align: center;
     margin: 15px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 48px;
+    color: black;
+}
+
+.intro {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: left;
+    padding: 10px 48px;
+}
+
+.content-header {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 68px;
-    color: whitesmoke;
+    font-size: 1.25em;
 }
 
 .list {
@@ -16,31 +31,172 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
-    justify-content: space-around;
+    justify-content: center;
 }
+
 .shop {
     width: 30%;
-    border: black dotted 1px;
-    margin: 5px 10px;
+    border: black solid 1px;
+    margin: 2px;
     padding: 3px;
-    font-family: 'Oswald', sans-serif;
-    background-color: white;
-}
-
-.name {
-    font-weight: bold;
-    font-size: 1.25em;
-}
-
-.name .address .phone-number .website {
-    float: right;
-    color: #38220f;
+    background:rgba(255,255,255, 0.7);
+    
 }
 
 .logo img {
-    height: 100px;
+    height: 112px;
     width: auto;
     float: left;
-    margin-right: 10px
+    border: 2px solid black;
+}
 
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.info {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.addressLine1, .addressLine2, .phone-number {
+    font-size: .9em;
+}
+
+.hoursOfOperation {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+    border: 1px solid grey;
+    padding: 2px 3px;
+    margin-top: 3px;
+}
+
+.hoursTag {
+    float: left;
+    margin-right: 22px;
+}
+
+.content {
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+}
+
+.hours {
+    float: right;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 3px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+}
+  
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 3px 5px;
+    display: none;
+    overflow: visible;
+    background-color: #f1f1f1;
+}
+
+.buttons {
+    float: right;
+    padding: 7px 10px;
+    justify-content: center;
+}
+
+.call-button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color: #ededed;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #383838;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8em;
+	font-weight: 600;
+	padding: 6px 34px;
+	text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin: 0px auto 4px auto;
+    float: left;
+}
+.call-button:hover {
+	background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color: #dfdfdf;
+}
+.call-button:active {
+	position: center;
+	top: 1px;
+}
+
+.web-button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color: #ededed;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #383838;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8em;
+	font-weight: 600;
+	padding: 6px 18.5px;
+	text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin: 4px auto;
+    float: left;
+}
+.web-button:hover {
+	background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color: #dfdfdf;
+}
+.web-button:active {
+	position: center;
+	top: 1px;
+}
+
+.open-maps {
+	box-shadow: inset 0px 1px 0px 0px #97c4fe;
+	background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color: #3d94f6;
+	border-radius: 6px;
+	border: 1px solid #337fed;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8em;
+	font-weight: 600;
+	padding: 6px 12px;
+	text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+    margin: 4px auto 0px auto;
+    float: left;
+}
+.open-maps:hover {
+	background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color: #1e62d0;
+}
+.open-maps:active {
+	position: center;
+	top: 1px;
 }
